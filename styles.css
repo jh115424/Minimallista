@@ -1,0 +1,525 @@
+html, body {
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: auto;
+}
+
+.main-Container {
+  width: 100%;
+}
+
+.topHeader {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutUsTitle {
+  text-align: center;
+}
+.aboutUsParOne {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  color: #6b6b6b;
+}
+
+.aboutUsIntro {
+  font-size: 18px;
+  color: #282828;
+}
+
+.dot {
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.dotHeader {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 24pt;
+  margin-top: 0.2cm;
+}
+
+.companyName {
+  display: flex;
+  color: #6b6b6b;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.companyTitle {
+  font-size: 18pt;
+  margin-top: 12.5px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.topHeaderRight {
+  display: flex;
+  margin-left: auto;
+  gap: 3rem;
+  padding-top: 18px;
+}
+
+.ourTeam {
+  color: #6b6b6b;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 30pt;
+}
+
+h1 {
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 125px;
+  align-items: center;
+  justify-content: center;
+}
+
+.teamDescription {
+  text-align: center;
+  max-width: 800px;
+  width: auto;
+  margin: auto;
+}
+
+.interior {
+  display: flex;
+  gap: 25px;
+  margin-top: -121px;
+}
+
+.images {
+  width: 300px;
+  height: 175px;
+}
+
+.imageWrapper {
+  justify-content: space-between;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.designTeam {
+  display: grid;
+  grid-auto-columns: auto;
+  margin-top: 55px;
+}
+
+.back,
+.next {
+  width: 16px;
+  height: 16px;
+  margin-bottom: 60px;
+  display: none;
+}
+
+.back {
+  width: 16px;
+  height: 16px;
+  display: none;
+  margin-left: -100px;
+}
+
+.next {
+  width: 16px;
+  height: 16px;
+  display: none;
+  margin-right: 100px;
+}
+
+.firstPicInfo,
+.secondPicInfo,
+.thirdPicInfo {
+  color: #6b6b6b;
+  font-weight: 800px;
+  font-size: 18px;
+  color: #6b6b6b;
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: row;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.faceBook,
+.google,
+.twitter {
+  width: 18px;
+  height: 18px;
+  margin-left: 21px;
+}
+
+.team {
+  width: 150px;
+  height: 150px;
+}
+
+.designers {
+  display: flex;
+  flex-direction: row;
+  grid-column-gap: 20px;
+  justify-content: center;
+  margin-right: 20px;
+  padding-top: 30px;
+}
+
+.footerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  gap: 5rem;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  margin-top: 70px;
+  background-color: black;
+}
+
+.footerLogos {
+  height: 24px;
+  width: 24px;
+  color: #282828;
+}
+
+h3 {
+  color: #6b6b6b;
+  font-size: 13px;
+  margin-top: -22.1px;
+  margin-left: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder lighter;
+}
+
+.contactInfo {
+  display: flex;
+  color: white;
+  gap: 40px;
+  justify-content: center;
+}
+
+hr {
+  display: flex;
+  flex-direction: column;
+  color: #6b6b6b;
+}
+
+.email {
+  text-align: center;
+}
+
+.logos {
+  margin-left: -20px;
+}
+
+.phone,
+.address {
+  color: #6b6b6b;
+}
+
+.trigram {
+  width: 24px;
+  height: 24px;
+  margin: auto;
+  display: none;
+}
+
+.line {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copyRight {
+  flex-direction: column;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  color: #6b6b6b;
+  font-size: 12px;
+}
+
+
+
+/* CODE FOR DESKTOP/LAPTOP */
+@media (max-width: 1028px) {
+  .trigram {
+    width: 24px;
+    height: 24px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .designers {
+    flex-direction: row;
+  }
+
+  .firstPicTitle,
+  .secondPicTitle,
+  .thirdPicTitle {
+    display: flex;
+    flex-direction: row;
+    color: #6b6b6b;
+    font-weight: 800px;
+  }
+}
+
+/* CODE FOR TABLET */
+
+@media (max-width: 768px) {
+  .trigram {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+
+  .designers {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .firstPicTitle,
+  .secondPicTitle,
+  .thirdPicTitle {
+    color: #6b6b6b;
+    font-weight: 800px;
+    margin-left: 35px;
+    justify-content: space-between;
+  }
+
+  .firstPicInfo,
+  .secondPicInfo,
+  .thirdPicInfo {
+    gap: 25px;
+  }
+
+  .interior {
+    gap: 25px;
+  }
+
+  .text {
+    margin-left: 25px;
+  }
+
+  .imageWrapper {
+    justify-content: flex-start;
+  }
+  .topHeaderRight {
+    display: none;
+  }
+
+  .designExamples {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .interior {
+    display: flex;
+    flex-direction: column;
+  }
+  .imageWrapper {
+    display: flex;
+  }
+
+  .aboutUsIntro {
+    font-size: 18px;
+    color: #282828;
+  }
+
+  .firstPicTitle,
+  .secondPicTitle,
+  .thirdPicTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #6b6b6b;
+    font-weight: 800px;
+  }
+
+  .employeeName {
+    margin-left: 20px;
+  }
+
+  .employeeTitle {
+    margin-left: 20px;
+  }
+
+  .faceBook,
+  .google,
+  .twitter {
+    width: 18px;
+    height: 18px;
+    padding-left: 20px;
+    margin-left: 20px;
+  }
+
+  .team {
+    margin-left: 20px;
+  }
+}
+
+.footer {
+  width: 100%;
+}
+
+.position {
+  margin-left: 25px;
+}
+
+.contacts {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* CODE FOR MOBILE */
+@media (max-width: 375px) {
+  .trigram {
+    display: block;
+    height: 24px;
+    width: 24px;
+  }
+
+  .aboutUsTitle {
+    text-align: center;
+  }
+
+  .aboutUsIntro {
+    font-size: 18px;
+  }
+
+  .teamDescription {
+    text-align: center;
+  }
+
+  .ourTeam {
+    color: #6b6b6b;
+    font-weight: lighter;
+    font-size: 30px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .images {
+    width: 80vw;
+    height: 80vw;
+    padding-left: 25px;
+  }
+
+  .imageWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .firstPicTitle,
+  .secondPicTitle,
+  .thirdPicTitle {
+    color: #6b6b6b;
+    font-weight: 800px;
+    margin-left: 35px;
+  }
+
+  .firstPicInfo,
+  .secondPicInfo,
+  .thirdPicInfo {
+    color: #6b6b6b;
+    text-align: center;
+  }
+
+  .designTeam {
+    display: grid;
+    display: block;
+    grid-auto-columns: auto;
+    margin-top: 55px;
+  }
+
+  .designers {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text {
+    margin-left: 25px;
+  }
+
+  .footerBox {
+    display: flex;
+    flex-direction: column;
+    column-gap: 26px;
+    background-color: black;
+    width: 100%;
+    margin-top: 70px;
+  }
+
+  .socialIcons {
+    flex-direction: column;
+  }
+
+  .team {
+    width: 80vw;
+    height: 80vw;
+  }
+
+  .contactInfo {
+    flex-direction: column;
+    color: white;
+    gap: 16px;
+    margin-left: 50px;
+    justify-content: center;
+  }
+
+  .line {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  .copyRight {
+    flex-direction: column;
+    color: #6b6b6b;
+    gap: 16px;
+  }
+}
